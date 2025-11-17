@@ -195,6 +195,12 @@ const Home = () => {
       </div>
       <dialog id="my_modal_1" className="modal">
         <div className="modal-box bg-white rounded-2xl">
+          <h3 className="text-2xl font-semibold my-3">
+            {selectedCollege.name}
+          </h3>
+          <h3 className="text-sm font-semibold my-3">
+            {selectedCollege.country}
+          </h3>
           <h3 className="font-bold text-lg">Course name</h3>
           <input
             type="text"
